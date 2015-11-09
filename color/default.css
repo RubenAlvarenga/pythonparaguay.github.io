@@ -3,7 +3,15 @@ a,.tp-caption a.btn:hover {
 	color: #346e9e;
 }
 .top-nav-collapse {
-	background: #346e9e;
+	/*background: #346e9e;*/
+    background: repeating-linear-gradient(
+  45deg,
+  #349ACD,
+  #349ACD 5px,
+  #278FC8 5px,
+  #278FC8 10px
+  );
+
 }
 
 .navbar-custom ul.nav ul.dropdown-menu li a:hover {
@@ -28,7 +36,13 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 }
 
 footer {
-    background-color: #ffe15f;
+  background: repeating-linear-gradient(
+  45deg,
+  #FFEE74,
+  #FFEE74 5px,
+  #FFDD27 5px,
+  #FFDD27 10px
+  );
 }
 
 .btn-skin {

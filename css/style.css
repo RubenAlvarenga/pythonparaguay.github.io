@@ -66,8 +66,10 @@ a:focus {
     font-weight: 700;
 }
 .navbar-brand {
+  position: fixed;
+  top: 0;
   height: 40px;
-  padding: 5px 15px;
+  padding: 0 15px;
   font-size: 18px;
   line-height: 1em;
 }
@@ -307,15 +309,15 @@ hr {
 	
 /*	background: url(../img/bg1.jpg) no-repeat top center;*/
 
-background: rgba(237,245,241,1);
-background: -moz-linear-gradient(left, rgba(237,245,241,1) 0%, rgba(50,108,156,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(237,245,241,1)), color-stop(100%, rgba(50,108,156,1)));
-background: -webkit-linear-gradient(left, rgba(237,245,241,1) 0%, rgba(50,108,156,1) 100%);
-background: -o-linear-gradient(left, rgba(237,245,241,1) 0%, rgba(50,108,156,1) 100%);
-background: -ms-linear-gradient(left, rgba(237,245,241,1) 0%, rgba(50,108,156,1) 100%);
-background: linear-gradient(to right, rgba(237,245,241,1) 0%, rgba(50,108,156,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edf5f1', endColorstr='#326c9c', GradientType=1 );
-
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#258dc8+0,a3f7f4+54,f8f8f8+91,f8f8f8+100 */
+background: #258dc8; /* Old browsers */
+background: -moz-linear-gradient(top, #258dc8 0%, #a3f7f4 54%, #f8f8f8 91%, #f8f8f8 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#258dc8), color-stop(54%,#a3f7f4), color-stop(91%,#f8f8f8), color-stop(100%,#f8f8f8)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #258dc8 0%,#a3f7f4 54%,#f8f8f8 91%,#f8f8f8 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #258dc8 0%,#a3f7f4 54%,#f8f8f8 91%,#f8f8f8 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #258dc8 0%,#a3f7f4 54%,#f8f8f8 91%,#f8f8f8 100%); /* IE10+ */
+background: linear-gradient(to bottom, #258dc8 0%,#a3f7f4 54%,#f8f8f8 91%,#f8f8f8 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#258dc8', endColorstr='#f8f8f8',GradientType=0 ); /* IE6-9 */
 }
 
 #intro.intro {
@@ -360,8 +362,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edf5f1', end
 	/*text-shadow: -1px 1px 1px #000;background: url(../img/bg1.jpg) no-repeat fixed center;*/
 }
 
-.intro .logo{ float: right; margin-right:10%;}
-
+/*.intro .logo{ float: right; margin-right:10%;}
+*/
 
 /* ===========================
 --- About
@@ -838,3 +840,4 @@ Parallax
 	.boxed-grey{min-height: 300px;}
 	
 }
+
