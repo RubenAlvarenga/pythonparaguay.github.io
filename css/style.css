@@ -72,6 +72,7 @@ a:focus {
   padding: 0 15px;
   font-size: 18px;
   line-height: 1em;
+  margin:5px 10px;
 }
 
 .navbar-brand h1{
@@ -773,8 +774,8 @@ Parallax
     }
 
     .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid rgba(255,255,255,.3);
-    }
+/*        border-bottom: 1px solid rgba(255,255,255,.3);
+*/    }
 	
     .intro {
         height: 100%;
@@ -838,6 +839,7 @@ Parallax
 	#intro .logo img{ max-width: 200px; margin: 80px 0px 20px 0px; padding:0px;}
 
 	.boxed-grey{min-height: 300px;}
-	
+
+
 }
 
